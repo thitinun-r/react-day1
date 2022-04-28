@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import AppClass from './AppClass'
-import App from './App'
 import './index.css'
+import Workshop from '../workshop/workshop'
+import DemoProps from '../workshop/demoProps'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
-    <AppClass />
+    <Workshop />
+    <DemoProps />
   </React.StrictMode>
 )
